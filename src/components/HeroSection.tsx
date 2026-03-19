@@ -33,7 +33,7 @@ const HeroSection = () => {
                   alt="Electroo"
                   className="w-36 h-36 rounded-full border-4 border-primary/30 object-cover"
                 />
-                <div className="absolute bottom-2 right-2 w-6 h-6 rounded-full bg-yellow-500 border-4 border-card" title="Idle" />
+                <div className="absolute bottom-2 right-2 w-6 h-6 rounded-full border-4 border-card" style={{ backgroundColor: 'hsl(45, 100%, 50%)' }} title="Idle" />
               </div>
               <div className="text-center sm:text-left flex-1">
                 <h1 className="text-4xl font-bold tracking-tight">Electroo</h1>
