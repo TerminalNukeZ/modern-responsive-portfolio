@@ -12,7 +12,7 @@ A **modern, responsive, and fast portfolio website** built with **React**, **Typ
 - ✅ Fully Responsive – Desktop, tablet, and mobile friendly  
 - ✅ Lightning-fast – Powered by **Vite** and optimized for performance  
 - ✅ TypeScript Support – Fully typed React components  
-- ✅ Tailwind CSS & Shadcn UI – Modern, customizable UI components  
+- ✅ Tailwind CSS & Shadcn UI – Modern, reusable UI components  
 - ✅ SEO-Friendly – Optimized for search engines  
 - ✅ Easy Deployment – Vercel, Netlify, Cloudflare Pages
 
@@ -28,27 +28,22 @@ A **modern, responsive, and fast portfolio website** built with **React**, **Typ
 
 ---
 
-## 📸 Preview Screenshots
+## 📸 Homepage Screenshots
 
-You can add screenshots by placing them in a folder (e.g., `assets/screenshots/`) and referencing them like this:
+Scroll horizontally to see the homepage from top to bottom:
 
-```markdown
-![Home Page](assets/screenshots/home.png)
-![About Section](assets/screenshots/about.png)
-![Projects Section](assets/screenshots/projects.png)
-![Contact Section](assets/screenshots/contact.png)
-```
-
-Here’s an example gallery:
-
-<p align="center">
-  <img src="assets/screenshots/home.png" alt="Home Page" width="300"/>
-  <img src="assets/screenshots/about.png" alt="About Section" width="300"/>
-  <img src="assets/screenshots/projects.png" alt="Projects Section" width="300"/>
-  <img src="assets/screenshots/contact.png" alt="Contact Section" width="300"/>
+<p align="center" style="overflow-x: auto; white-space: nowrap;">
+  <img src="src/assets/Screenshot_20260320_222113.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="src/assets/Screenshot_20260320_222108.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="src/assets/Screenshot_20260320_222103.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="src/assets/Screenshot_20260320_222058.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="src/assets/Screenshot_20260320_222053.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="src/assets/Screenshot_20260320_222044.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="src/assets/Screenshot_20260320_222032.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="src/assets/Screenshot_20260320_222005.png" width="300" style="display:inline-block;"/>
 </p>
 
-> Tip: You can resize images in Markdown using `width` and `height` attributes inside `<img>` tags.
+> Tip: You can adjust `width` to make images bigger or smaller.
 
 ---
 
@@ -106,7 +101,7 @@ Production-ready files will be in the `dist/` folder.
 ├─ src/             # Source code
 │  ├─ components/   # Reusable UI components
 │  ├─ hooks/        # Custom React hooks
-│  ├─ assets/       # Images, icons, and screenshots
+│  ├─ assets/       # Images, icons, screenshots
 │  └─ App.tsx       # Root component
 ├─ package.json      # Project dependencies and scripts
 ├─ vite.config.ts    # Vite configuration
